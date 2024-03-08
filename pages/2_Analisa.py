@@ -55,6 +55,7 @@ with tab1:
         st.write('')
         st.write('')
         st.error("""Data Diambil Dengan Metode Web Scrapping Di Website [Lamudi](https://www.lamudi.co.id/)""")
+      
 with tab2:
     with st.container():
         kamar_tidur = alt.Chart(df).mark_bar().encode(
@@ -120,6 +121,8 @@ with tab3:
                 terdapat jumlah kamar mandi yang banyak dengan harga rendah""")
         st.write('')
         st.write('')
+        st.error("""Data Diambil Dengan Metode Web Scrapping Di Website [Lamudi](https://www.lamudi.co.id/)""")
+
 with tab4:
         bangunan = alt.Chart(df).transform_density(
             density='bangunan',
