@@ -7,9 +7,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.set_page_config(page_title = "Prediksi Harga Rumah")
+st.set_page_config(page_title = "Home")
 
 st.markdown("<div style='text-align: center;'><h2>Dashboard Prediksi Harga Rumah Di Kota Yogyakarta</h2></div>", unsafe_allow_html=True)
+st.divider()
 st.write('')
 st.write('')
 st.write('Tujuan saya membuat prediksi rumah untuk : ')
