@@ -2,3 +2,6 @@ scikit-learn == 1.2.2
 matplotlib == 3.8.0
 seaborn == 0.12.2
 folium
+jinja2
+branca
+geopandas
